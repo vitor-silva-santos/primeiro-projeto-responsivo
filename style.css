@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    color: #5D5D7D;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.nav {
+    text-align: end;
+    margin: 24px 5vw 0 57px;
+
+}
+
+.link-nav {
+    margin-left: 41px;
+    font-size: 28px;
+    line-height: 41px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.link-nav:hover {
+    opacity: 0.7;
+    text-decoration: underline;
+}
+
+.link-nav:active {
+    opacity: 0.4;
+}
+
+.content {
+    margin-left: 100px;
+    float: left;
+    margin-top: 130px;
+}
+
+.title {
+    font-size: 70px;
+    line-height: 80px;
+    width: 368px;
+}
+
+.paragraph {
+    font-size: 28px;
+    line-height: 48px;
+    width: 540px;
+    margin: 15px 0;
+    opacity: 0.6;
+}
+
+.button {
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+    background: #9499EA;
+    width: 260px;
+    height: 62px;
+    border: none;
+    border-radius: 50px;
+    margin-bottom: 130px;
+}
+
+.button:hover {
+    opacity: 0.8;
+    scale: 1.1;
+}
+
+.button:active {
+    background: #0f1699;
+    opacity: 0.5;
+}
+
+.fundo-personalizado {
+    width: 39vw;
+    min-height: 120%;
+    background-color: rgba(93, 93, 125, 0.16);
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.img-principal {
+    width: 456px;
+    margin-top: 130px;
+    position: absolute;
+    right: 15vw;
+}
+
+
+
+@media screen and (max-width: 1160px){
+
+    .container {
+        margin: auto;
+        height: auto;
+    }
+    
+    .nav {
+        display: none;
+    }
+
+    .content {
+        width: 300px;
+        height: 50%;
+        float: none;
+        margin: auto;
+        margin-top: 5vh;
+        text-align: center;
+    }
+
+    .title {
+        margin: auto;
+        margin-bottom: 30px;
+        font-size: 36px;
+        line-height: 52px;
+        text-align: center;
+        width: 230px;
+    }
+
+    .paragraph {
+        font-size: 14px;
+        line-height: 24px;
+        width: 290px;
+        margin: auto;
+        opacity: 0.6;
+    }
+
+    .button {
+        margin-top: 6vh;
+        margin-bottom: 100px;
+    }
+
+    .fundo-personalizado {
+        width: 100%;
+        min-height: 65%;
+        height: 50vh;
+        top: 50%;
+    }
+
+    .img-principal {
+        width: 270px;
+        margin: 50px 0 0 0;
+        right: 15vw;
+    }
+
+}
+
