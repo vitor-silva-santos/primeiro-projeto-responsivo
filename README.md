@@ -7,7 +7,7 @@
 <p> - CSS</p>
 
 <h2>DESKTOP</h2>
-<img href="https://github.com/vitor-silva-santos/primeiro-projeto-responsivo/blob/master/img/desktop.png?raw=true" alt="Imagem de como o site fica no computador">
+<img src="https://github.com/vitor-silva-santos/primeiro-projeto-responsivo/blob/master/img/desktop.png?raw=true" alt="Imagem de como o site fica no computador" width="700px">
 <br>
 <h2>MOBILE</h2>
-<img href="https://github.com/vitor-silva-santos/primeiro-projeto-responsivo/blob/master/img/mobile.png?raw=true alt="Imagem de como o site fica no celular">
+<img src="https://github.com/vitor-silva-santos/primeiro-projeto-responsivo/blob/master/img/mobile.png?raw=true alt="Imagem de como o site fica no celular" >
